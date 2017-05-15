@@ -1,0 +1,41 @@
+.v-pagenation{
+	overflow:hidden;
+    padding: 10px 0;
+}
+.v-pagenation ul{
+	overflow:hidden;
+	list-style:none;
+	margin:0px;
+	padding:0px;
+	float:left;
+}
+.v-pagenation ul li{
+	float:left;
+	height:20px;
+	line-height:20px;
+	cursor:pointer;
+	border:1px solid #8d9eff;
+	border-radius:4px;
+	margin:0 3px;
+}
+.v-pagenation ul li:hover{
+	background:#f2f2f2;
+	color:#8d9eff
+}
+.v-pagenation ul li.activepage{
+	background:#8d9eff;
+	color:#fff
+}
+
+.v-pagenation ul li .span{
+	display:block;
+	padding:0 12px;
+	height:20px;
+	line-height:20px;
+	user-select:none;
+	font-size:14px;
+}
+.v-pagenation .page-info{
+	margin-left:5px;
+	line-height:20px;
+}
