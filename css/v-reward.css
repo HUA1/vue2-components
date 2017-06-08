@@ -1,0 +1,29 @@
+.reward-wrap{
+	overflow: hidden;
+	list-style: none;
+	font-size:14px;
+}
+.reward-wrap .item{
+	display:block;
+	float: left;
+	width:30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border:1px solid #efefef;
+	border-left: none;
+}
+.reward-wrap .item.current{
+	background:#008000;
+	color:#fff;
+}
+.reward-wrap .item:first-child{
+	border-left: 1px solid #efefef;
+}
+.reward-wrap .ctrlBtnsGroup{
+}
+.reward-wrap .ctrlBtns{
+	padding:0 5px;
+	width:auto;
+	cursor:pointer;
+}
