@@ -1,0 +1,39 @@
+.vm-input{
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 120px;
+    padding: 0px;
+	overflow:hidden;
+	height:25px;
+	line-height:25px;
+}
+.vm-input .vm-mark{
+	display:inline-block;
+    vertical-align: -2px;
+    height: 1em;
+    border-right: 1px solid #000;
+	animation: hideAndShow 1s infinite;
+}
+.vm-input.focu{
+	border-color:blue;
+	box-shadow: 0 0 5px #000;
+}
+.vm-input .vm-view{
+    float: left;
+    display: block;
+    padding-left: 5px;
+    min-height: 1em;
+}
+
+@keyframes hideAndShow{
+	0%{
+		opacity:1;
+	}
+	50%{
+		opacity:0;
+	}
+	100%{
+		opacity:1;
+	}
+}
